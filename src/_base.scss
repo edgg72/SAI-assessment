@@ -1,0 +1,32 @@
+$primary-font: "Poppins";
+
+$secondary-color:#7F56D9;
+$primary-color: #475467;
+$black: #101828;
+$white: #FFFFFF;
+$light-gray: #F9FAFB;
+$border-gray: #D0D5DD;
+$background: #F2F4F7;
+
+
+$font-size: 16px;
+
+$size-xs: 0.5rem;
+$size-s: 0.75rem;
+$size-m: 1rem;
+$size-ml: 1.125rem;
+$size-mxl: 1.25rem;
+$size-l: 1.3rem;
+$size-ll: 2.25rem;
+$size-xl: 3.75rem;
+$size-xxl: 5rem;
+
+@mixin button {
+  background-color: $primary-color;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: inherit;
+}

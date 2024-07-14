@@ -1,0 +1,46 @@
+{
+  "links": [
+    {"label": "Features", "url": "google.com"},
+    {"label": "FAQ", "url": "google.com"}
+  ],
+  "buttonText": "Sign up",
+  "hero": {
+    "title": "What can AI do for you?",
+    "paragraph": "At Solving.AI, we harness the transformative power of generative artificial intelligence to pioneer a new frontier of software applications.",
+    "buttonText": "Learn more about Solving AI"
+  },
+  "footerData": [
+    {
+      "title": "Product",
+      "contentArray": ["Overview", "Features", "Solutions", "Tutorials", "Pricing", "Releases"]
+    },
+    {
+      "title": "Company",
+      "contentArray": ["About us", "Careers", "Press", "News", "Media kit", "Contact"]
+    },
+    {
+      "title": "Resources",
+      "contentArray": ["Blog", "Newsletter", "Events", "Help centre", "Tutorials", "Support"]
+    },
+    {
+      "title": "Social",
+      "contentArray": ["Twitter", "LinkedIn", "Facebook", "GitHub", "AngelList", "Dribbble"]
+    },
+    {
+      "title": "Legal",
+      "contentArray": ["Terms", "Privacy", "Cookies", "Licenses", "Settings", "Contact"]
+    }
+  ],
+  "features": {
+    "title": "Features",
+    "subtitle": "Unlock yourself with AI",
+    "paragraph": "Dive into our suite of AI-powered applications and discover how they can transform your daily operations."
+  },
+  "CTA": {
+    "title": "The App is free to use!",
+    "paragraph": "You have $5 USD available to spend on AI.",
+    "learn.more": "Learn more",
+    "get.started": "Get started"
+  },
+  "rights": "© 2024 Solving.ai All rights reserved."
+}

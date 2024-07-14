@@ -1,0 +1,47 @@
+@use  '../../base' as *;
+
+.hero {
+  height: calc(100vh - 80px);
+  margin-top: $size-xxl;
+  background-color: $background; 
+  background-image: radial-gradient(circle, $border-gray 1px, transparent 2px);
+  background-size: 25px 25px; 
+  
+  
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding-left: $size-xxl;
+    height: 100%;
+    width: 100%;
+    background: url('../../assets/bg.gif')   no-repeat;
+    background-position: right;
+
+    h1 {
+      font-size: $size-xl;
+      font-weight: 500;
+      margin-block: 0;
+      max-width: 450px;
+      line-height: 72px;
+      margin-bottom: $size-l;
+    }
+    p {
+      font-size: $size-mxl;
+      color: $primary-color;
+      margin-bottom: $size-xl;
+      max-width: 550px;
+    }
+    
+    button {
+      @include button;
+      max-width: 305px;
+      height: 60px;
+      color: $white;
+      font-size: $size-ml;
+      margin-bottom: 150px;
+      background-color: $secondary-color;
+    }
+  }
+}

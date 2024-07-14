@@ -1,0 +1,26 @@
+@use  '../../base' as *;
+
+.features {
+  padding-left: $size-xxl;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 330px;
+  h4 {
+    color: $secondary-color;
+    font-weight: 600;
+    margin-bottom: $size-xs;
+  }
+  h3 {
+    font-size: $size-ll;
+    color: $black;
+    margin-bottom: $size-ml;
+  }
+  p {
+    color: $primary-color;
+    font-size: $size-mxl;
+    max-width: 768px;
+    text-align: center;
+  }
+}

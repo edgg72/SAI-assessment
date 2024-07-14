@@ -1,0 +1,20 @@
+@use 'base';
+
+#root {
+  box-sizing: border-box;
+  font-family: base.$primary-font;
+  font-size: base.$font-size;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; 
+}
+
+* {
+  margin-block: 0;
+}
+
+
