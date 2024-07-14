@@ -23,12 +23,9 @@
   }
   &__signup {
     button {
-      border: none;
+      @include button;
       background-color: inherit;
-      font-family: inherit;
       color: $secondary-color;
-      font-weight: 600;
-      font-size: 1rem;
     }
   }
 }
