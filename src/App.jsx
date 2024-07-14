@@ -1,14 +1,11 @@
-import { useState } from 'react'
-
+import './App.scss'
+import Strings from './utils/strings.json'
 import { NavBar } from './Components/NavBar/NavBar';
 import { SolvingAILogo } from './assets/SolvingAILogo';
 import { Hero } from './Components/Hero/Hero';
-
-import './App.scss'
 import { Features } from './Components/Features/Features';
 import { CTAComponent } from './Components/CTAComponent/CTAComponent';
 import { Footer } from './Components/Footer/Footer';
-import Strings from './utils/strings.json'
 
 function App() {
 
@@ -34,10 +31,13 @@ function App() {
       <CTAComponent
         title={CTA.title}
         paragraph={CTA.paragraph}
-        pButtonText={CTA['learn.more']}
-        sButtonText={CTA['get.started']}
+        pButtonText={CTA.learnMore}
+        sButtonText={CTA.getStarted}
       />
-      <Footer footerData={Strings.footerData} bottomText={Strings.rights} />
+      <Footer
+        footerData={Strings.footerData}
+        bottomText={Strings.rights}
+      />
     </>
   )
 }

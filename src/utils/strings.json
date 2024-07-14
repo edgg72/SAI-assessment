@@ -39,8 +39,8 @@
   "CTA": {
     "title": "The App is free to use!",
     "paragraph": "You have $5 USD available to spend on AI.",
-    "learn.more": "Learn more",
-    "get.started": "Get started"
+    "learnMore": "Learn more",
+    "getStarted": "Get started"
   },
   "rights": "© 2024 Solving.ai All rights reserved."
 }
