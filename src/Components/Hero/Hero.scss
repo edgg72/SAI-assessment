@@ -5,7 +5,8 @@
   margin-top: $size-xxl;
   background-color: $background; 
   background-image: radial-gradient(circle, $border-gray 1px, transparent 2px);
-  background-size: 25px 25px; 
+  background-size: 25px 25px;
+  width: 100%;
   
   
   &__content {
@@ -15,7 +16,6 @@
     width: 100%;
     padding-left: $size-xxl;
     height: 100%;
-    width: 100%;
     background: url('../../assets/bg.gif')   no-repeat;
     background-position: right;
 
@@ -26,12 +26,14 @@
       max-width: 450px;
       line-height: 72px;
       margin-bottom: $size-l;
+      width: 80%;
     }
     p {
       font-size: $size-mxl;
       color: $primary-color;
       margin-bottom: $size-xl;
       max-width: 550px;
+      width: 80%;
     }
     
     button {
@@ -42,6 +44,28 @@
       font-size: $size-ml;
       margin-bottom: 150px;
       background-color: $secondary-color;
+      width: 80%;
     }
   }
 }
+
+@media (width <= 1320px) {
+  .hero {
+    &__content {
+      background: none;
+    }
+  
+  }
+}
+
+@media (width <=600px) {
+  .hero {
+    &__content {
+      h1 {
+        font-size: $size-ll;
+      }
+    }
+  
+  }
+}
+
