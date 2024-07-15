@@ -1,7 +1,7 @@
 @use  '../../base' as *;
 
 .features {
-  padding-left: $size-xxl;
+  padding: 0 $size-xxl;
   display: flex;
   flex-direction: column;
   justify-content: center;
