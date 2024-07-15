@@ -34,5 +34,16 @@
     background-color: $secondary-color;
     color: $white;
   }
+}
 
+@media (width <= 1030px) {
+  .cta {
+    flex-direction: column;
+    justify-content: center;
+    gap: $size-m;
+    &__title, &__paragraph {
+      text-align: center;
+    }
+
+  }
 }
