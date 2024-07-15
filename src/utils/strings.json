@@ -12,23 +12,58 @@
   "footerData": [
     {
       "title": "Product",
-      "contentArray": ["Overview", "Features", "Solutions", "Tutorials", "Pricing", "Releases"]
+      "contentArray": [
+        { "name": "Overview", "isNew": false },
+        { "name": "Features", "isNew": false },
+        { "name": "Solutions", "isNew": true },
+        { "name": "Tutorials", "isNew": false },
+        { "name": "Pricing", "isNew": false },
+        { "name": "Releases", "isNew": false }
+      ]
     },
     {
       "title": "Company",
-      "contentArray": ["About us", "Careers", "Press", "News", "Media kit", "Contact"]
+      "contentArray": [
+        { "name": "About us", "isNew": false },
+        { "name": "Careers", "isNew": false },
+        { "name": "Press", "isNew": false },
+        { "name": "News", "isNew": false },
+        { "name": "Media kit", "isNew": false },
+        { "name": "Contact", "isNew": false }
+      ]
     },
     {
       "title": "Resources",
-      "contentArray": ["Blog", "Newsletter", "Events", "Help centre", "Tutorials", "Support"]
+      "contentArray": [
+        { "name": "Blog", "isNew": false },
+        { "name": "Newsletter", "isNew": false },
+        { "name": "Events", "isNew": false },
+        { "name": "Help centre", "isNew": false },
+        { "name": "Tutorials", "isNew": false },
+        { "name": "Support", "isNew": false }
+      ]
     },
     {
       "title": "Social",
-      "contentArray": ["Twitter", "LinkedIn", "Facebook", "GitHub", "AngelList", "Dribbble"]
+      "contentArray": [
+        { "name": "Twitter", "isNew": false },
+        { "name": "LinkedIn", "isNew": false },
+        { "name": "Facebook", "isNew": false },
+        { "name": "GitHub", "isNew": false },
+        { "name": "AngelList", "isNew": false },
+        { "name": "Dribbble", "isNew": false }
+      ]
     },
     {
       "title": "Legal",
-      "contentArray": ["Terms", "Privacy", "Cookies", "Licenses", "Settings", "Contact"]
+      "contentArray": [
+        { "name": "Terms", "isNew": false },
+        { "name": "Privacy", "isNew": false },
+        { "name": "Cookies", "isNew": false },
+        { "name": "Licenses", "isNew": false },
+        { "name": "Settings", "isNew": false },
+        { "name": "Contact", "isNew": false }
+      ]
     }
   ],
   "features": {
@@ -44,3 +79,7 @@
   },
   "rights": "© 2024 Solving.ai All rights reserved."
 }
+
+
+  
+

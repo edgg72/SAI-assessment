@@ -15,12 +15,20 @@
     p {
       color: $secondary-color;
       font-weight: 600;
-      margin-bottom: $size-m;
       cursor: pointer;
       width: fit-content;
     }
     &.footer__column__title {
       color: $black;
+      margin-bottom: $size-m;
+
+    }
+    &__row {
+      display: flex;
+      gap: 5px;
+      align-items: center;
+      margin-bottom: $size-m;
+
     }
 
   }
